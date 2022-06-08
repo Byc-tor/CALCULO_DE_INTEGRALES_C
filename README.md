@@ -1,5 +1,8 @@
 # CALCULO_DE_INTEGRALES_C
 calculo devolumenes por metodo de discos
+
+
+
 #include<stdio.h>
 #include<math.h>
 #include<conio.h>
