@@ -13,11 +13,12 @@ typedef struct integrales{
 	int lim_infe;
 	int intervalo;
 	int intervalos[100];
+	
 	public:
 		integrales(int a,int b){
 			Datos();
-            lim_sup=a
-            lim_infer=b
+            		lim_sup=a
+           	 	lim_infer=b
 		};
 	Datos(){
 		int lim_sup=a;lim_infe=b	
@@ -25,27 +26,28 @@ typedef struct integrales{
 	}
 	IntegraleTrigo(){
 	}
-	IntegraleExpo(){}
-	void f(int x){
-		// f(x)=sen(x)
-		int f
-		f=sin(x)
-	}
-	int g(int x){
-		int j;
-		j=f(x)
-		k=j*j
-		return(k)
+	IntegraleExpo(){
+		void f(int x){
+			// f(x)=sen(x)
+			int f
+			f=sin(x)
+		}
+		int g(int x){
+			int j;
+			j=f(x)
+			k=j*j
+			return(k)
+		}
 	}
 	IntegralesPol(){
-        x_j(limite supetior-limite inferor)/intervalo;
+        	x_j(limite supetior-limite inferor)/intervalo;
 		for(i=0;i<intervalos;){
 			x_i+=x_j;
 			intervalo[0]=g(x_i);
-		}
+			}
 		for(i=0;i---){
 			f+=intervalo[i];	
-		}
+			}
 		h=f*pi
 	}	
 }inte;
@@ -59,7 +61,7 @@ int main(){
 	scanf("%i",&a)
 	return 0;
 }
-//no debemos dejar espacios si no sale mal
+//no debemos dejar espacios si no sale mal- okey
 
 
 
